@@ -1,3 +1,3 @@
 class profile::database {
-  class { '::postgresql': }
+  class { '::postgresql::server': }
 }
