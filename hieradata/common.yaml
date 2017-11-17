@@ -5,3 +5,13 @@ classes:
 ntp::servers:
   - 0.us.pool.ntp.org
   - 1.us.pool.ntp.org
+  
+users::admins_users:
+  johnsmith:
+    comment:  'John Smith'
+    uid:      3001
+
+users::admins_ssh_keys:
+  johnsmith:
+    user:     'johnsmith'
+    key:      'ABCDEFGHIJKLMNOPQRSTUVWXYZ='
